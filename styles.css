@@ -1,0 +1,104 @@
+/* --------- GLOBAL --------- */
+body {
+    font-family: "Georgia", serif;
+    background: #efefef;
+    padding: 40px 10px;
+    margin: 0;
+}
+
+/* --------- CARD CONTAINER --------- */
+.container {
+    background: #ffffff;
+    max-width: 720px;
+    margin: auto;
+    padding: 40px 50px;
+    border-radius: 12px;
+    position: relative;
+    box-shadow: 0 8px 24px rgba(0,0,0,0.08);
+}
+
+/* --------- BADGE --------- */
+header .badge {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background: #ff7b7b;
+    color: white;
+    padding: 6px 14px;
+    font-size: 13px;
+    border-radius: 16px;
+}
+
+/* --------- MAIN HEADING --------- */
+header h1 {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+/* --------- META INFO --------- */
+header .info {
+    color: #666;
+    font-size: 14px;
+}
+
+header .info span {
+    margin-right: 18px;
+}
+
+/* --------- SECTION HEADINGS --------- */
+section h2 {
+    font-size: 20px;
+    margin-top: 35px;
+    margin-bottom: 15px;
+    color: #222;
+    border-left: 4px solid #ff7b7b;
+    padding-left: 10px;
+}
+
+/* --------- INGREDIENTS LIST --------- */
+#ingredients ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+#ingredients ul li {
+    padding: 10px 0;
+    border-bottom: 1px solid #eee;
+    font-size: 15px;
+    color: #333;
+}
+
+/* --------- INSTRUCTIONS LIST --------- */
+#instructions ol {
+    padding-left: 20px;
+}
+
+#instructions ol li {
+    margin-bottom: 14px;
+    line-height: 1.5;
+    font-size: 15px;
+}
+
+/* --------- HIGHLIGHT SPAN --------- */
+.highlight {
+    background: #FFF6B0;
+    padding: 2px 6px;
+    border-radius: 4px;
+}
+
+/* --------- TIP BOX --------- */
+aside {
+    background: #e9f6ff;
+    border-left: 4px solid #4aa3ff;
+    padding: 14px 12px;
+    margin-top: 30px;
+    font-size: 14px;
+    border-radius: 4px;
+}
+
+/* --------- RESPONSIVE --------- */
+@media (max-width: 600px) {
+    .container {
+        padding: 25px;
+    }
+}
