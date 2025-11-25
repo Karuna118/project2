@@ -63,9 +63,12 @@ section h2 {
 
 #ingredients ul li {
     padding: 10px 0;
-    border-bottom: 1px solid #eee;
+    border-bottom: 1px solid grey;
     font-size: 15px;
     color: #333;
+}
+#ingredients ul li::before {
+    content: "✅";
 }
 
 /* --------- INSTRUCTIONS LIST --------- */
@@ -97,8 +100,9 @@ aside {
 }
 
 /* --------- RESPONSIVE --------- */
-@media (max-width: 600px) {
+@media (max-width: 400px) {
     .container {
         padding: 25px;
+        background: #ff7b7b;
     }
 }
